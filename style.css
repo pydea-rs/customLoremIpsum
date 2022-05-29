@@ -1,0 +1,89 @@
+.input-paragraphs {
+    width: 50px;
+    border-radius: 5px;
+    border: 0;
+    padding: 2px;
+    text-align: center;
+}
+
+.container-box b {
+    font-size: 35px;
+}
+
+* {
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.label-paragraphs {
+    font-size: large;
+}
+
+body {
+    background: rgb(228, 251, 255);
+    /* height: 90vh; */
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+.seperator {
+    width: 40%;
+    color: gray;
+}
+
+.random-paragraphs {
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    padding-bottom: 5rem;
+}
+
+.input-file {
+    padding-left: 5rem;
+}
+
+.container-box {
+    text-align: center;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.input-container {
+    margin-top: 1rem;
+}
+
+.button-generator {
+    border-radius: 5px;
+    background: rgb(88, 145, 252);
+    padding: 2px;
+    cursor: pointer;
+    border: 1px solid blue;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    width: 6rem;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.button-generator:hover {
+    background: rgb(0, 0, 247);
+}
+
+.button-generator:active {
+    background: #0f0
+}
+
+@media (max-width:300px) {
+    .input-paragraphs {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .button-generator {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
